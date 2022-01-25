@@ -1,4 +1,4 @@
-# File-Transfert-Merthods
+# File-Transfert-Methods
 
 ## Windows Methods
 
